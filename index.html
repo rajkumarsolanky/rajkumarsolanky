@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>RAJ UNIVERSE</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div id="sp"></div>
+    <canvas id="bg"></canvas>
+
+    <div id="intro">
+        <div class="intro-ring"><div class="intro-mono">RK</div></div>
+        <div class="intro-title">RAJ UNIVERSE</div>
+        <div class="intro-bar"><div class="intro-fill"></div></div>
+    </div>
+
+<nav>
+  <div class="nav-logo">RAJ&nbsp;UNIVERSE</div>
+  <ul class="nav-links">
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#education">EDUCATION</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+  <button class="burger" id="burg"><span></span><span></span><span></span></button>
+</nav>
+<div class="mob-menu" id="mob"></div>
+
+  <a href="#about" onclick="closeMob()">ABOUT</a>
+  <a href="#projects" onclick="closeMob()">PROJECTS</a>
+  <a href="#skills" onclick="closeMob()">SKILLS</a>
+  <a href="#education" onclick="closeMob()">EDUCATION</a>
+  <a href="#contact" onclick="closeMob()">CONTACT</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-wrap">
+    <div>
+      <p class="hero-eyebrow ha0">WELCOME TO THE DIGITAL COSMOS</p>
+      <h1 class="hero-name ha1">
+        <span class="hn-light">RAJ KUMAR</span>
+        <span class="hn-grad">SOLANKY</span>
+      </h1>
+      <p class="hero-sub ha2">Information Technology student at University of Sindh — crafting offline-first Android apps, full-stack web tools, and immersive digital experiences.</p>
+      <div class="hero-btns ha3">
+        <a href="#projects" class="btn-c">Explore Work</a>
+        <a href="#contact" class="btn-g">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-avatar ha4">
+      <div class="av-ring">
+        <img src="image/dp.jpg" alt="Raj Kumar Solanky" class="av-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="av-fallback" style="display:none">RK</div>
+        <div class="av-online"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="reveal">
+  <div class="sec-max">
+    <div class="sec-label">WHO I AM</div>
+    <h2 class="sec-title">Cosmic Creator</h2>
+    <div class="about-grid">
+      <div class="glass-card">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.2em;color:var(--p);margin-bottom:1rem">CAREER OBJECTIVE</div>
+        <p style="color:var(--muted);font-size:.92rem;line-height:1.9;font-weight:300">Dedicated Information Technology student at University of Sindh, passionate about software development, web technologies, and problem-solving. Seeking opportunities to apply technical skills, gain practical experience, and contribute effectively in a professional IT environment.</p>
+        <div class="stat-row">
+          <div class="stat-item"><div class="stat-num">3</div><div class="stat-lbl">PROJECTS BUILT</div></div>
+          <div class="stat-item"><div class="stat-num">2</div><div class="stat-lbl">CERTIFICATIONS</div></div>
+          <div class="stat-item"><div class="stat-num">6+</div><div class="stat-lbl">TECHNOLOGIES</div></div>
+        </div>
+      </div>
+      <div class="glass-card">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.2em;color:var(--p);margin-bottom:1rem">CONTACT INFO</div>
+        <ul class="contact-list">
+          <li><span class="ico">📞</span> <span>+92 302 1346064</span></li>
+          <li><span class="ico">📧</span> <a href="mailto:rajkumar.solinky@gmail.com">rajkumar.solinky@gmail.com</a></li>
+          <li><span class="ico">🔗</span> <a href="https://linkedin.com/in/rajkumarsolanky/">linkedin.com/in/rajkumarsolanky</a></li>
+          <li><span class="ico">📍</span> <span>Jamshoro, Sindh, Pakistan</span></li>
+          <li><span class="ico">🏷️</span> <span>Surname: Solanky</span></li>
+          <li><span class="ico">💼</span> <span>Fresh Candidate — Open to Opportunities</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="reveal">
+  <div class="sec-max">
+    <div class="sec-label">WHAT I'VE BUILT</div>
+    <h2 class="sec-title">Cosmic Creations</h2>
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=800" class="proj-img" alt="Nagarparkar"/>
+          <div class="proj-img-overlay"></div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-cat">TOURISM · WEB</div>
+          <div class="proj-badges"><span class="pbadge pb-live">LIVE DEMO</span></div>
+          <div class="proj-name">Nagarparkar Tourism</div>
+          <p class="proj-desc">Responsive tourism website showcasing culture, heritage, and attractions of Nagarparkar, Sindh. Features semantic HTML5, mobile-friendly navigation, and optimized assets.</p>
+          <div class="proj-stack">
+            <span class="ps-tag">HTML5</span><span class="ps-tag">CSS3</span><span class="ps-tag">JavaScript</span><span class="ps-tag">Responsive UI</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800" class="proj-img" alt="Sindh Board"/>
+          <div class="proj-img-overlay"></div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-cat">ED-TECH · ANDROID</div>
+          <div class="proj-badges"><span class="pbadge pb-fyp">FYP</span><span class="pbadge pb-wip">IN DEV</span></div>
+          <div class="proj-name">Sindh Board Digital Learning</div>
+          <p class="proj-desc">Offline Android learning app for Class 9–10 students under Sindh Board curriculum. Built with MVC architecture, SQLite database, and PDF viewer — designed for limited internet access.</p>
+          <div class="proj-stack">
+            <span class="ps-tag">Java</span><span class="ps-tag">Android Studio</span><span class="ps-tag">SQLite</span><span class="ps-tag">MVC</span><span class="ps-tag">Offline-First</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-img-wrap">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800" class="proj-img" alt="YT Rajloader"/>
+          <div class="proj-img-overlay"></div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-cat">FULL STACK · WEB</div>
+          <div class="proj-badges"><span class="pbadge pb-fs">FULL STACK</span></div>
+          <div class="proj-name">YT 4K Rajloader</div>
+          <p class="proj-desc">YouTube downloader web app supporting up to 4K quality. Features real-time download progress via SSE, smart format selection, FFmpeg merging, and a modern dark-themed UI.</p>
+          <div class="proj-stack">
+            <span class="ps-tag">Python</span><span class="ps-tag">Flask</span><span class="ps-tag">yt-dlp</span><span class="ps-tag">FFmpeg</span><span class="ps-tag">SSE</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="reveal">
+  <div class="sec-max">
+    <div class="sec-label">WHAT I KNOW</div>
+    <h2 class="sec-title">Universe Technologies</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="sg-title">⚡ TECHNICAL SKILLS</div>
+        <div class="tags">
+          <span class="stag tc">HTML / CSS / JS</span>
+          <span class="stag tc">Java (Android Dev)</span>
+          <span class="stag tc">Python / Flask</span>
+          <span class="stag tc">MySQL / SQLite</span>
+          <span class="stag tc">Git &amp; GitHub</span>
+          <span class="stag tc">Blender 3D</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-title">🛠️ TECHNOLOGIES</div>
+        <div class="tags">
+          <span class="stag tp">HTML5</span><span class="stag tp">CSS3</span>
+          <span class="stag tp">JavaScript</span><span class="stag tp">Python</span>
+          <span class="stag tp">Java</span><span class="stag tp">Flask</span>
+          <span class="stag tp">Android Studio</span><span class="stag tp">SQLite</span>
+          <span class="stag tp">MySQL</span><span class="stag tp">Git &amp; GitHub</span>
+          <span class="stag tp">Blender</span><span class="stag tp">MS Office</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-title">🤝 SOFT SKILLS</div>
+        <div class="tags">
+          <span class="stag tpk">Communication</span>
+          <span class="stag tpk">Leadership</span>
+          <span class="stag tpk">Team Work</span>
+          <span class="stag tpk">Problem Solving</span>
+          <span class="stag tpk">Time Management</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-title">🌍 LANGUAGES</div>
+        <div class="tags">
+          <span class="stag tg">English — Fluent</span>
+          <span class="stag tg">Sindhi — Native</span>
+          <span class="stag tg">Urdu — Fluent</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="reveal">
+  <div class="sec-max">
+    <div class="sec-label">ACADEMIC JOURNEY</div>
+    <h2 class="sec-title">Education</h2>
+    <div class="edu-tl">
+      <div class="edu-item">
+        <div class="edu-dot"></div>
+        <div class="edu-card">
+          <div class="edu-deg">Bachelor of Science — Information Technology</div>
+          <div class="edu-inst">University of Sindh, Jamshoro</div>
+          <div class="edu-yr">2023 — 2027 (ONGOING)</div>
+        </div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-dot" style="border-color:var(--p);box-shadow:0 0 8px var(--p);animation:none"></div>
+        <div class="edu-card">
+          <div class="edu-deg">Intermediate — Pre-Medical</div>
+          <div class="edu-inst">Board of Intermediate Education</div>
+          <div class="edu-yr">2020 — 2022</div>
+        </div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-dot" style="border-color:var(--pk);box-shadow:0 0 8px var(--pk);animation:none"></div>
+        <div class="edu-card">
+          <div class="edu-deg">Matriculation — Science</div>
+          <div class="edu-inst">Board of Secondary Education</div>
+          <div class="edu-yr">2018 — 2020</div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:3.5rem">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.3em;color:var(--c);margin-bottom:1.2rem">CERTIFICATIONS</div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-ico">🏅</div>
+          <div><div class="cert-n">CIT</div><div class="cert-i">Certificate in Information Technology</div></div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-ico">🌐</div>
+          <div><div class="cert-n">Web Design Certificate</div><div class="cert-i">Dotcom Center</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERESTS + LANGUAGES -->
+<section id="more" class="reveal">
+  <div class="sec-max">
+    <div class="sec-label">MORE ABOUT ME</div>
+    <h2 class="sec-title">Interests &amp; Languages</h2>
+    <div class="two-col">
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.25em;color:var(--muted);margin-bottom:1rem">INTERESTS</div>
+        <div class="int-item"><div class="int-dot"></div>Software Development</div>
+        <div class="int-item"><div class="int-dot"></div>Web Development</div>
+        <div class="int-item"><div class="int-dot"></div>3D Modeling &amp; Animation</div>
+        <div class="int-item"><div class="int-dot"></div>IT Projects &amp; Innovation</div>
+      </div>
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.25em;color:var(--muted);margin-bottom:1rem">LANGUAGES</div>
+        <div class="lang-row">
+          <div class="lang-card"><div class="lang-n">English</div><span class="lang-l ll-f">FLUENT</span></div>
+          <div class="lang-card"><div class="lang-n">Sindhi</div><span class="lang-l ll-n">NATIVE</span></div>
+          <div class="lang-card"><div class="lang-n">Urdu</div><span class="lang-l ll-f">FLUENT</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="reveal">
+  <div class="sec-max">
+    <div class="contact-wrap">
+      <div class="sec-label" style="justify-content:center">LET'S CONNECT</div>
+      <h2 style="font-family:'Playfair Display';font-size:clamp(2rem,4vw,3rem);font-weight:700;margin:1rem 0 1.2rem">Build Something Extraordinary</h2>
+      <p style="color:var(--muted);font-size:.95rem;font-weight:300">Available for internships, collaborative projects, and professional opportunities.</p>
+      <div class="contact-btns">
+        <a href="mailto:rajkumar.solinky@gmail.com" class="btn-c">Email Me</a>
+        <a href="https://linkedin.com/in/rajkumarsolanky/" class="btn-g">LinkedIn</a>
+        <a href="#projects" class="btn-g">View Projects</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-in">
+    <p>© 2026 RAJ UNIVERSE · RAJ KUMAR SOLANKY</p>
+    <p>CRAFTED WITH CREATIVITY &amp; CODE 🚀</p>
+  </div>
+</footer>
+
+<script>
+// Intro
+window.addEventListener('load',()=>{setTimeout(()=>document.getElementById('intro').classList.add('gone'),1600)});
+
+// Burger
+document.getElementById('burg').addEventListener('click',()=>document.getElementById('mob').classList.toggle('open'));
+function closeMob(){document.getElementById('mob').classList.remove('open')}
+
+// Scroll progress
+window.addEventListener('scroll',()=>{
+  const h=document.documentElement;
+  document.getElementById('sp').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';
+});
+
+// Reveal
+new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('active')});
+},{threshold:.08}).observe&&document.querySelectorAll('.reveal').forEach(el=>
+  new IntersectionObserver(([e])=>{if(e.isIntersecting)el.classList.add('active')},{threshold:.08}).observe(el)
+);
+
+// Spotlight on cards
+document.querySelectorAll('.glass-card,.proj-card,.skill-group,.edu-card,.cert-card,.lang-card').forEach(card=>{
+  card.style.position='relative';
+  const sh=document.createElement('div');
+  sh.style.cssText='position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .25s;z-index:0;';
+  card.appendChild(sh);
+  card.addEventListener('mousemove',e=>{
+    const r=card.getBoundingClientRect();
+    const x=((e.clientX-r.left)/r.width*100).toFixed(1);
+    const y=((e.clientY-r.top)/r.height*100).toFixed(1);
+    sh.style.background=`radial-gradient(circle at ${x}% ${y}%,rgba(0,219,231,.09),transparent 65%)`;
+    sh.style.opacity='1';
+    const mx=(e.clientX-r.left)/r.width-.5;
+    const my=(e.clientY-r.top)/r.height-.5;
+    const tilt=card.classList.contains('lang-card')?6:9;
+    card.style.transform=`perspective(800px) rotateY(${mx*tilt}deg) rotateX(${-my*tilt}deg) translateY(-5px) scale(1.015)`;
+  });
+  card.addEventListener('mouseleave',()=>{
+    sh.style.opacity='0';
+    card.style.transform='perspective(800px) rotateY(0) rotateX(0) translateY(0) scale(1)';
+  });
+});
+
+// Particle Simulation — full screen grid spawn
+(function(){
+  const cv=document.getElementById('bg');
+  const cx=cv.getContext('2d');
+  if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){cv.style.display='none';return}
+  let W,H,pts=[];
+  const mob=()=>W<768;
+  const N=()=>mob()?65:140;
+  const CDIST=()=>mob()?110:145;
+  const mouse={x:-9999,y:-9999};
+  let hue=185;
+
+  function resize(){W=cv.width=window.innerWidth;H=cv.height=window.innerHeight}
+
+  class P{
+    constructor(x,y){
+      this.x=x;this.y=y;
+      this.vx=(Math.random()-.5)*.55;
+      this.vy=(Math.random()-.5)*.55;
+      this.sz=Math.random()*1.5+.5;
+      this.ho=(Math.random()-.5)*70;
+      this.al=.25+Math.random()*.45;
+      this.trail=[];
+    }
+    update(){
+      // Mouse repel
+      const dx=this.x-mouse.x,dy=this.y-mouse.y;
+      const d=Math.sqrt(dx*dx+dy*dy)||1;
+      if(d<100){const f=.7*(1-d/100);this.vx+=dx/d*f*.055;this.vy+=dy/d*f*.055}
+      this.vx*=.996;this.vy*=.996;
+      const sp=Math.sqrt(this.vx*this.vx+this.vy*this.vy);
+      if(sp<.08){const a=Math.random()*Math.PI*2;this.vx+=Math.cos(a)*.07;this.vy+=Math.sin(a)*.07}
+      if(sp>1.6){this.vx*=1.6/sp;this.vy*=1.6/sp}
+      this.trail.push({x:this.x,y:this.y});
+      if(this.trail.length>10)this.trail.shift();
+      this.x+=this.vx;this.y+=this.vy;
+      if(this.x<-10)this.x=W+10;else if(this.x>W+10)this.x=-10;
+      if(this.y<-10)this.y=H+10;else if(this.y>H+10)this.y=-10;
+    }
+    draw(){
+      const h=(hue+this.ho+360)%360;
+      for(let i=1;i<this.trail.length;i++){
+        const t=i/this.trail.length;
+        cx.beginPath();cx.moveTo(this.trail[i-1].x,this.trail[i-1].y);cx.lineTo(this.trail[i].x,this.trail[i].y);
+        cx.strokeStyle=`hsla(${h},90%,65%,${t*this.al*.45})`;cx.lineWidth=this.sz*t*.7;cx.lineCap='round';cx.stroke();
+      }
+      const g=cx.createRadialGradient(this.x,this.y,0,this.x,this.y,this.sz*3);
+      g.addColorStop(0,`hsla(${h},95%,80%,${this.al})`);
+      g.addColorStop(1,`hsla(${h},85%,55%,0)`);
+      cx.beginPath();cx.arc(this.x,this.y,this.sz*3,0,Math.PI*2);cx.fillStyle=g;cx.fill();
+    }
+  }
+
+  function init(){
+    pts=[];
+    const n=N(),cols=Math.ceil(Math.sqrt(n*(W/H))),rows=Math.ceil(n/cols);
+    const cw=W/cols,ch=H/rows;let i=0;
+    outer:for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){
+      if(i>=n)break outer;
+      pts.push(new P(c*cw+Math.random()*cw,r*ch+Math.random()*ch));i++;
+    }
+  }
+
+  function drawLines(){
+    const d=CDIST();
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+      const a=pts[i],b=pts[j];
+      const dx=a.x-b.x,dy=a.y-b.y,dd=dx*dx+dy*dy;
+      if(dd<d*d){
+        const al=(1-Math.sqrt(dd)/d)*.1;
+        cx.beginPath();cx.moveTo(a.x,a.y);cx.lineTo(b.x,b.y);
+        cx.strokeStyle=`hsla(${(hue+150)%360},70%,65%,${al})`;cx.lineWidth=.4;cx.stroke();
+      }
+    }
+  }
+
+  let fr=0;
+  function loop(){
+    requestAnimationFrame(loop);fr++;
+    if(fr%5===0)hue=(hue+.15)%360;
+    cx.fillStyle='rgba(5,5,5,0.16)';cx.fillRect(0,0,W,H);
+    drawLines();
+    pts.forEach(p=>{p.update();p.draw()});
+  }
+
+  window.addEventListener('mousemove',e=>{mouse.x=e.clientX;mouse.y=e.clientY});
+  window.addEventListener('mouseleave',()=>{mouse.x=-9999;mouse.y=-9999});
+  window.addEventListener('touchmove',e=>{mouse.x=e.touches[0].clientX;mouse.y=e.touches[0].clientY},{passive:true});
+  window.addEventListener('touchend',()=>{mouse.x=-9999;mouse.y=-9999});
+  window.addEventListener('resize',()=>{resize();init()});
+  resize();init();loop();
+})();
+</script>
+</body>
+</html>
